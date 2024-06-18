@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-Snippet-Manager</title>
+    <style>
+        body{
+            width: 300px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+            padding: 10px;
+        }
+        #snippets{
+            margin-top: 10px;
+        }
+        .snippet{
+            background-color: aquamarine;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .tags{
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code-Snippet-Manager</h1>
+    <input type="text" id="snippetTitle" placeholder="Snippet Title">
+    <textarea id="snippetCode" placeholder="Your Code here..." rows="4" style="width:100%"></textarea>
+    <input type="text" id="snippetTags" placeholder="Tags(comma seaparated)">
+    <button id="saveSnippet">Save Snippet</button>
+    <div id="snippets"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

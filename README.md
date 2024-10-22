@@ -5,8 +5,11 @@ The Code Snippet Manager Chrome Extension is a tool designed to help developers 
 
 ## Features
 a.Save Snippets: Easily save snippets of code with a title, code content, and optional tags for organization.
+
 b.Organize: Tag and categorize your snippets for easy retrieval.
+
 c.Search: Quickly find the snippet you need with the built-in search functionality.
+
 d.Share: Share your snippets with teammates or the broader developer community.
 
 ## How to Use
